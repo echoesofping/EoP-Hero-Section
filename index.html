@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of Ping | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container flex justify-center items-end pb-10">
+        <div class="circle rounded-full"></div>
+        <div class="absolute top-16 flex flex-col w-full items-center">
+          <div class="flex items-center w-full">
+            <div class="flex px-6">
+              <div class="h-2 w-2 rounded-full mx-1 red"></div>
+              <div class="h-2 w-2 rounded-full mx-1 yellow"></div>
+              <div class="h-2 w-2 rounded-full mx-1 green"></div>
+            </div>
+            <div class="flex bg-white items-center w-5/12 px-6 py-4 rounded-md app-shadow transition duration-300">
+              <i class="fa-solid fa-star app-color-yellow text-xs"></i>
+              <span class="font-bold app-color-black ml-4 mr-auto text-xs">echoesofping.hashnode.dev</span>
+              <i class="fa-solid fa-ellipsis app-color-lavendar"></i>
+            </div>
+            <a href="https://youtube.com/@echoes-of-ping" target="_blank" rel="noopener noreferrer"
+       class="mr-auto flex items-center bg-white dark:bg-white border-2 border-transparent rounded-md px-6 py-4 ml-3 app-shadow hover:border-[#22d3ee] dark:hover:border-[#fb28cd] transition duration-300">
+      <i class="fa-brands fa-youtube app-color-dribbble dark:text-pink-400 mr-2"></i>
+      <span class="font-bold app-color-black dark:text-black text-xs">YouTube</span>
+    </a>
+    <div class="flex bg-white px-6 py-4 app-shadow rounded-md mr-6 transition duration-300">
+        <span class="font-bold app-color-black text-xs">Join now</span>
+        <div class="w-px app-bg-light-white-2 mx-4"></div>
+            <i class="fa-regular fa-user mr-2 app-color-black"></i>
+            <i class="fa-solid fa-angle-down text-xs app-color-black"></i>
+        </div>
+    </div>
+    <div class="flex flex-col text-center my-36">
+        <span class="font-semibold text-4xl mb-4 app-title">Why not Your own Services?</span>
+        <span class="app-color-black font-semibold">Start Your Self-hosting Journey with us!</span>
+    </div>
+
+    <div class="bg-white/50 w-10/12 px-6 pt-12 pb-16 app-shadow rounded-xl backdrop-blur-[200px] transition duration-300">
+        <div class="flex pr-6">
+          <span class="font-semibold text-sm app-color-gray w-14 mx-12">Posts</span>
+          <span class="font-semibold text-sm app-color-gray w-14 mx-12">Blogs</span>
+          <span class="font-semibold text-sm app-color-gray w-14 mx-12 mr-auto active">Vidoes</span>
+          <label class="flex items-center cursor-pointer">
+            <span class="font-semibold text-sm app-color-black mr-6">Lights</span>
+            <div class="switch">
+              <input type="checkbox" id="darkToggle" class="switch-checkbox" />
+              <div class="switch-bg"></div>
+              <div class="switch-indicator"></div>
+            </div>
+          </label>
+        </div>
+
+        <div class="flex mt-16">
+            <div class="bg-white/80 mx-6 flex flex-col w-1/3 p-6 rounded-xl border-2 border-white">
+                <span class="font-semibold text-xs app-color-lavendar">Installation Guide</span>
+                <span class="font-semibold text-lg app-color-black">Speedtest-Tracker</span>
+            </div>
+            <div class="bg-white/80 mx-6 flex flex-col w-1/3 p-6 rounded-xl border-2 border-white">
+                <span class="font-semibold text-xs app-color-lavendar">Setup</span>
+                <span class="font-semibold text-lg app-color-black">Uptime-Kuma</span>
+            </div>
+            <div class="bg-white/80 mx-6 flex flex-col w-1/3 p-6 rounded-xl border-2 border-white">
+                <span class="font-semibold text-xs app-color-lavendar">Playlist</span>
+                <span class="font-semibold text-lg app-color-black">HomeLab(Self-hosting)</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
