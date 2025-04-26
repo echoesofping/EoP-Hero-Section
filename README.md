@@ -6,7 +6,7 @@ A beautiful and responsive **Hero Section** built with **HTML**, **Tailwind CSS*
 
 ## 🔥 Live Demo
 
-👉 [Click here to view the live demo] [https://github.com/echoesofping/EoP-Hero-Section]  
+👉 [Click here to view the live demo] [https://echoesofping.github.io/EoP-Hero-Section/]  
 
 
 ---
